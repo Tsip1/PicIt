@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
-
 //Go to camera
         findViewById(R.id.buttonCamera).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
 //end of gallery button
 
     }      //end of on create
+
     int PICK_IMAGE_REQUEST = 1;
 
 
